@@ -1,0 +1,10 @@
+$font-color: blue;
+
+.app {
+  background-color: teal;
+
+  .sub-app {
+    background-color: wheat;
+    color: $font-color;
+  }
+}
