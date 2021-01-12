@@ -3,14 +3,11 @@ import * as ReactDOM from 'react-dom';
 
 import { BrowserRouter } from 'react-router-dom';
 import { renderRoutes }  from "react-router-config";
-
-import routes from './router';
+import routes            from './router';
 
 ReactDOM.render(
   <BrowserRouter>
-    <React.Suspense fallback={ <div>Loading...</div> }>
-      { renderRoutes(routes) }
-    </React.Suspense>
+    { renderRoutes(routes) }
   </BrowserRouter>,
   document.getElementById("app")
 );

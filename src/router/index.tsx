@@ -2,9 +2,11 @@ import * as React from 'react';
 
 import { RouteConfig } from 'react-router-config';
 
+import App from '../app';
+
 const routes: RouteConfig[] = [
   {
-    component: React.lazy(() => import("../app")),
+    component: App,
     routes   : [
       {
         path     : "/",

@@ -15,7 +15,9 @@ function App ({ route }: RouteConfigComponentProps) {
         <Link to="/temp">Temporary page</Link>
       </div>
       
-      { renderRoutes(route.routes) }
+      <React.Suspense fallback={ <div>Loading...</div> }>
+        { renderRoutes(route.routes) }
+      </React.Suspense>  
     </div>
   )
 }
