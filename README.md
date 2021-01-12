@@ -5,8 +5,9 @@
 - React v17
 - TypeScript v4
 - Webpack v5
-- React Router v5
 - Express v4
+- React Router v5
+- Redux v4 => redux middleware 중 redux-logger 추가, 커스텀을 위해 기본적인 틀만 구성.
 
 ## Usage
 **Install dependencies**

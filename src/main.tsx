@@ -5,9 +5,14 @@ import { BrowserRouter } from 'react-router-dom';
 import { renderRoutes }  from "react-router-config";
 import routes            from './router';
 
+import { Provider } from 'react-redux';
+import store        from './store';
+
 ReactDOM.render(
   <BrowserRouter>
-    { renderRoutes(routes) }
+    <Provider store={ store }>
+      { renderRoutes(routes) }
+    </Provider> 
   </BrowserRouter>,
   document.getElementById("app")
 );
