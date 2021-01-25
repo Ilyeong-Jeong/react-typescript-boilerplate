@@ -2,6 +2,8 @@
 **React와 TypeScript을 base로 한 Boilerplate code**
 
 ## Tech Stack
+Node v14 base
+
 - React v17
 - TypeScript v4
 - Webpack v5
