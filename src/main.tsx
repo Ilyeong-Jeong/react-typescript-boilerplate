@@ -9,10 +9,10 @@ import { Provider } from 'react-redux';
 import store        from './store';
 
 ReactDOM.render(
-  <BrowserRouter>
-    <Provider store={ store }>
+  <Provider store={ store }>
+    <BrowserRouter>
       { renderRoutes(routes) }
-    </Provider> 
-  </BrowserRouter>,
+    </BrowserRouter>
+  </Provider>,
   document.getElementById("app")
 );

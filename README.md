@@ -24,10 +24,10 @@ npm run build
 
 **Run development mode**
 ```
-npm run dev
+npm run start (npm run dev)
 ```
 
 **Run production mode**
 ```
-npm run start
+npm run prod
 ```
