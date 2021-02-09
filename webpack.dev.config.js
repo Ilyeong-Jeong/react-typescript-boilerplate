@@ -9,9 +9,9 @@ module.exports = merge(webpackBaseConfig, {
   mode: 'development',
 
   devServer: {
-    host              : "0.0.0.0",
+    host              : '0.0.0.0',
     port              : port,
-    contentBase       : __dirname + "/dist/",
+    contentBase       : __dirname + '/dist/',
     historyApiFallback: true,
     watchOptions: {
       aggregateTimeout: 5000,

@@ -8,8 +8,8 @@ module.exports = {
 
   output: {                                          
     path         : path.join(__dirname, '/dist'),
-    filename     : "[name]_[hash].js",
-    chunkFilename: "[name]_[hash].js"
+    filename     : '[name]_[hash].js',
+    chunkFilename: '[name]_[hash].js'
   },
 
   resolve: {
@@ -36,8 +36,8 @@ module.exports = {
         test: /\.css$/,
         use : [
           'style-loader',
-          "css-loader",
-          "postcss-loader"
+          'css-loader',
+          'postcss-loader'
         ]
       }, 
       
@@ -46,9 +46,9 @@ module.exports = {
         exclude: /node_module/, 
         use    : [
           'style-loader',
-          "css-loader",
-          "postcss-loader",
-          "sass-loader"
+          'css-loader',
+          'postcss-loader',
+          'sass-loader'
         ]
       },      
    
